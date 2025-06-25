@@ -12,9 +12,10 @@ end = time.time()
 print(f"Elapsed : {end - start} seconds")
 def matadd_(A,B):
     if np.shape(A) == np.shape(B):
+        m,n = A.shape
         M3 = np.zeros_like(A)
-        for i in range(500):
-            for j in range(500):
+        for i in range(m):
+            for j in range(n):
                 M3[i,j] = A[i,j] + B[i,j]
         return M3
     return None
