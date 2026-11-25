@@ -1,0 +1,15 @@
+# Fichiers d'IDE et de build
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.class
+*.o
+*.exe
+__pycache__/
+*.pyc
+cmake-build-*/
+target/
+.ipynb_checkpoints/
+node_modules/
+.env
